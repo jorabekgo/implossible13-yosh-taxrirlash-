@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+// function alone(soat, ha, yoq) {
+//   if (confirm(soat)) ha()
+//   else yoq();
+// }
+
+// function oke() {
+//   alert( "ha" );
+// }
+
+// function korsat() {
+//   alert( "yoq bu hazil emas" );
+// }
+
+
+// alone("bu hazilmi", oke, korsat,);
+
+
+
+
+let yosh = prompt("siz web saytga kirish uchun (18) tolganmisz?" , 18 )
+
+if (yosh > 18) {
+    hamasiga = function ok() {
+        alert("hush kelibsiz")
+    };
+}else{
+    hamasiga = function nob() {
+        alert("yosh ekansiz")
+    }
+}
+hamasiga()
+    </script>   
+
+
+</body>
+</html>
